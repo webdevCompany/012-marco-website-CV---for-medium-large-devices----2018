@@ -1,0 +1,23 @@
+.gallerybox {
+  width: 100%;
+  background-color: #151414;
+  transition: all 0.5s;
+  padding-bottom: 200px;
+}
+
+/* section_portfolio_intro LAYOUT ======================================= */
+// hidden content that you open when you click on the link
+// starts with height: 0 and when you click to open the text will add a new class with height:300px
+.content {
+  padding-left: 7%;
+  padding-right: 26%;
+  height: 0px;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+/* WHEN YOU CLICK THE INTRO GALLERY LINK OPENS A BLOCK WITH TEXT */
+.maximize {
+  height: 300px;
+  transition: all 0.5s;
+}

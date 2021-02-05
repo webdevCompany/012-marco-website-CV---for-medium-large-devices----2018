@@ -1,0 +1,11 @@
+@keyframes maximizeImages {
+  0% {
+    transform: scale(0.4, 0.4);
+  }
+  30% {
+    transform: scale(0.3, 0.3);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

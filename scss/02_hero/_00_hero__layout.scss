@@ -1,0 +1,35 @@
+section.hero {
+  width: 100%;
+  padding-left: 6.3%;
+  padding-right: 6.3%;
+  margin: auto;
+  background-color: $grey_dark;
+  height: 570px;
+  display: flex;
+  font-family: $fontF__1;
+  line-height: 1.6;
+}
+
+section.hero .hero_left {
+  width: 46%;
+  height: 434px;
+  padding-left: 10%;
+  padding-right: 0%;
+  padding-bottom: 5%;
+}
+
+section.hero .hero_right {
+  width: 54%;
+  height: 434px;
+}
+
+figure {
+  margin-top: 58px;
+}
+
+section.hero .hero_left img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin-top: -20px;
+}

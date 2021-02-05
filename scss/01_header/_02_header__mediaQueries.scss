@@ -1,0 +1,22 @@
+@media screen and (max-width: 1199px) {
+  header > h1 span {
+    width: 356px;
+    height: 84px;
+    color: #959697;
+    font-weight: 300;
+    position: absolute;
+    top: 73px;
+    left: 607px;
+  }
+
+  h1 span {
+    font-size: 23px;
+    font-family: inherit;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  header {
+    display: none;
+  }
+}

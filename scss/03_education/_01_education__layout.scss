@@ -1,0 +1,128 @@
+#section_education {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-intro {
+  width: 100%;
+  height: 650px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: $education_intro_gradient;
+  position: relative;
+  top: 0;
+}
+
+#timeline {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000e0;
+}
+
+.sectionLeft {
+  width: 50%;
+  height: auto;
+  border-right: $timeline;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: initial;
+  flex-direction: column;
+  z-index: 1000;
+  transition: all 0.5s;
+}
+
+.timelineLeftBox_active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1s;
+}
+
+.sectionLeft_h3:before {
+  @include bigCircle_h3_before;
+  text-align: right;
+  right: -36px;
+}
+
+.sectionLeft_h3:after {
+  @include rect_h3_after;
+  right: 100px;
+}
+
+.sectionLeft_ul {
+  -webkit-padding-start: 0px;
+  margin-bottom: 100px;
+  transition: all 1s;
+}
+
+.sectionLeft_ul_li {
+  list-style-type: none;
+  width: 100%;
+  text-align: right;
+  position: relative;
+  top: 0;
+  right: 0;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all 1s;
+}
+
+.sectionLeft_ul > li:before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  background-color: $blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: -12px;
+}
+
+.sectionRight {
+  width: 50%;
+  border-left: $timeline;
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  box-sizing: border-box;
+  z-index: 0;
+  transition: all 0.5s;
+}
+
+.sectionRight_ul {
+  width: 90%;
+  -webkit-padding-start: 0px;
+  margin-bottom: 100px;
+}
+
+.sectionRight_ul_li {
+  list-style-type: none;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  opacity: 0;
+}
+
+.sectionRight_ul > li:before {
+  @include orange_bullet;
+  left: -12px;
+  background-color: $blue;
+}
+
+.opacityOnScroll {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.5s;
+}

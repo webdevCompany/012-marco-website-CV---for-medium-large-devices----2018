@@ -1,0 +1,43 @@
+/* gallery images (blocks of three per row)================================== */
+.gallery_portfolio {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gallerybox {
+  width: 100%;
+  background-color: #151414;
+  transition: all 0.5s;
+}
+.gallerybox_intro {
+  background: linear-gradient(#000, #000, #000, #151414);
+}
+
+.block_image {
+  width: 30%;
+  min-width: 300px;
+  height: 200px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 7px 5px #000;
+  transform: scale(0.7, 0.7);
+  opacity: 0;
+}
+
+.opacityOnScroll {
+  opacity: 1;
+  transform: translateY(0) scale(1, 1);
+  transition: all 0.5s;
+}
+
+.block_image > img {
+  width: 100%;
+  height: auto;
+}
+/* gallery images (blocks of three per row)================================== */

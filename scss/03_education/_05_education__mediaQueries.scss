@@ -1,0 +1,26 @@
+@media screen and (max-width: 1199px) {
+  .sectionLeft_ul_li {
+    width: 85%;
+    margin-left: 15%;
+  }
+
+  .sectionRight {
+    z-index: 0;
+  }
+
+  .sectionRight_ul {
+    width: 85%;
+    -webkit-padding-start: 0px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .education-intro {
+    display: none;
+  }
+
+  #timeline {
+    display: none;
+  }
+}

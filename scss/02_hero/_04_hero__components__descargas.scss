@@ -1,0 +1,84 @@
+.descargas {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: -100vw;
+
+  background-image: url('images/descargas-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  z-index: 1000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: all 0.7s;
+}
+
+.descargas_active {
+  transition: all 0.7s;
+  left: 0;
+}
+
+.descargas_h2 {
+  z-index: 100;
+}
+.descargas_ul {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 200px;
+  position: absolute;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.93);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  z-index: 0;
+}
+
+.hero_nav_ul li ul > li {
+  margin: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+// SVG CONTENT==================================================================
+
+.svg_links_bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.svg_links_bg_path {
+  stroke: rgb(138, 8, 70);
+  stroke-width: 7;
+  stroke-dasharray: 0 400;
+}
+
+.svg_link_active {
+  animation: svgLinks 2.5s ease-in-out 1 forwards;
+  animation-delay: 1.3s;
+}
+
+@keyframes svgLinks {
+  0% {
+    stroke-dasharray: 0 600;
+  }
+  100% {
+    stroke-dasharray: 440 600;
+  }
+}
+// SVG CONTENT==================================================================

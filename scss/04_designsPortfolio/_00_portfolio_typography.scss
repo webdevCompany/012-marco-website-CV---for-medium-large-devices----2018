@@ -1,0 +1,28 @@
+.gallerybox_h2 {
+  font-size: 40px;
+  color: $portfolio_H3__color;
+  padding-top: 100px;
+  padding-left: 7%;
+  opacity: 0;
+}
+
+.open_gallery_text {
+  display: block;
+  margin-left: 7%;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  cursor: pointer;
+}
+
+.content p {
+  line-height: 1.6;
+  color: $portfolio_p__color;
+  padding-bottom: 60px;
+}
+
+.opacityOnScroll {
+  opacity: 1;
+  transform: translateY(0) scale(1, 1);
+  transition: all 0.5s;
+}

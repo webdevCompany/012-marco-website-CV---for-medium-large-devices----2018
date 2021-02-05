@@ -1,0 +1,53 @@
+$black: #000;
+$grey_black: #282829;
+$grey_dark: #3a3c3e;
+$grey: #959697;
+$grey_light: #e1e0e0;
+
+$blue: #1580ee;
+$orange: rgb(181, 136, 0);
+
+$orange_bullet: #f99819;
+
+// variables layout
+$bg: $grey_dark;
+$color: $grey;
+
+// variables typography
+$fontF__1: Arial, HelveticaNeue;
+$fontF__2: HelveticaNeue;
+
+$h1: 30px;
+$h2: 24px;
+$h3: inherit;
+$p: 15px;
+
+// header____________________
+$h1_portfolio: 50px;
+$header_p: 16px;
+$header__bg: $grey_black;
+$header__color: $grey_light;
+$h1_portfolio__color: $black;
+$h1_portfolio__bg: $bg;
+
+// hero section___________________
+
+// education section__________________
+$education_intro_gradient: linear-gradient(
+  #000,
+  #000,
+  #000,
+  #000,
+  #000,
+  #000000e0,
+  #000000e0
+);
+
+$timeline: 3px solid $blue;
+
+// portfolio section ____________________
+$portfolio_H3__color: rgb(237, 18, 130);
+$portfolio_p__color: rgb(114, 113, 117);
+$portfolio__bg: #303030;
+
+$section_portfolio_intro__bg: linear-gradient(#000, #000, #000, #303030);

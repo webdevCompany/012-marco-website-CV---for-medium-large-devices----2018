@@ -1,0 +1,51 @@
+// Each education year (big blue circle + year + line)
+// this is the big blue circle
+@mixin bigCircle_h3_before {
+  content: '';
+  width: 66px;
+  height: 66px;
+  background-color: $blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+}
+
+@mixin education_h3 {
+  width: auto;
+  height: 66px;
+  line-height: 66px;
+  position: relative;
+  top: 0;
+  right: 0px;
+  margin-bottom: 50px;
+}
+
+// Each education year (big blue circle + year + line)
+// this is the line
+@mixin rect_h3_after {
+  content: '';
+  width: 123px;
+  height: 3px;
+  background-color: $blue;
+  position: absolute;
+  top: 33px;
+}
+
+@mixin hnc_bullet {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: $blue;
+  position: absolute;
+}
+
+@mixin orange_bullet {
+  content: '';
+  width: 22px;
+  height: 22px;
+  background-color: $orange_bullet;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+}

@@ -1,0 +1,38 @@
+// Marco A. Estors
+header {
+  font-family: $fontF__1;
+}
+header h1 {
+  width: 351px;
+  height: 34px;
+  line-height: 34px;
+  font-size: $h1;
+  font-weight: 300;
+  background-color: $header__bg;
+  margin-top: 40px;
+  margin-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 124px;
+}
+
+// PORTFOLIO
+header > h1 span {
+  width: 356px;
+  height: 84px;
+  color: $black;
+  font-weight: 300;
+  position: absolute;
+  top: 33px;
+  left: 645px;
+  display: none;
+}
+
+header > p {
+  width: 527px;
+  font-size: $header_p;
+  font-weight: 300;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: $header__bg;
+  letter-spacing: 4px;
+}

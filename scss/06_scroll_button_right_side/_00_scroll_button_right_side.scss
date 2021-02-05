@@ -1,0 +1,22 @@
+.lastSpace {
+  width: 100%;
+  height: 160px;
+}
+
+.sidebuttonGoTop {
+  width: 34px;
+  height: 34px;
+  position: fixed;
+  top: 300px;
+  right: 20px;
+  opacity: 0;
+}
+
+svg#sidesvgSCROLL {
+  z-index: 1000;
+}
+
+svg#sidesvgSCROLL path {
+  stroke: rgb(65, 71, 68);
+  fill: none;
+}

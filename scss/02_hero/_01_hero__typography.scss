@@ -1,0 +1,30 @@
+section.hero {
+  font-family: $fontF__1;
+  line-height: 1.6;
+}
+
+section.hero .hero_right h2 {
+  margin-top: 100px;
+  margin-left: 3%;
+  width: auto;
+  height: 33px;
+  font-size: 18px;
+  font-weight: 300px;
+  font-family: helvetica;
+  letter-spacing: 3px;
+}
+
+section.hero .hero_right > p {
+  width: auto;
+  margin: 3%;
+  font-size: $p;
+  font-weight: 300px;
+}
+
+a.navLinks {
+  width: 100%;
+  height: 100px;
+  line-height: 40px;
+  text-decoration: none;
+  text-align: center;
+}

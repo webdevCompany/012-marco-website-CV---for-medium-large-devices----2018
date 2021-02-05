@@ -1,0 +1,15 @@
+summary {
+  outline: none;
+}
+
+summary::-webkit-details-marker {
+  color: #1580ee;
+}
+
+ul.hnc-class {
+  color: #d3731f;
+}
+
+ul.hnc-class li {
+  color: $orange;
+}

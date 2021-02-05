@@ -1,0 +1,37 @@
+@import 'scss/00_base/_00_base__variables.scss';
+@import 'scss/00_base/_01_base__typography.scss';
+@import 'scss/00_base/_02_base__layout.scss';
+
+@import 'scss/01_header/_00_header__layout.scss';
+@import 'scss/01_header/_01_header__typography.scss';
+@import 'scss/01_header/_02_header__mediaQueries.scss';
+
+@import 'scss/02_hero/_00_hero__layout.scss';
+@import 'scss/02_hero/_01_hero__typography.scss';
+@import 'scss/02_hero/_02_hero__navigation.scss';
+@import 'scss/02_hero/_03_hero__components__sidebarMenu.scss';
+@import 'scss/02_hero/_04_hero__components__descargas.scss';
+@import 'scss/02_hero/_05_hero__mediaQueries.scss';
+
+@import 'scss/03_education/_00_education__mixins.scss';
+@import 'scss/03_education/_01_education__layout.scss';
+@import 'scss/03_education/_02_education__components__videoBG.scss';
+@import 'scss/03_education/_03_education__typography.scss';
+@import 'scss/03_education/_04_education__components__collegeCourse.scss';
+@import 'scss/03_education/_05_education__mediaQueries.scss';
+
+@import 'scss/04_designsPortfolio/_00_portfolio_typography.scss';
+@import 'scss/04_designsPortfolio/_01_portfolio_layout.scss';
+@import 'scss/04_designsPortfolio/_02_portfolio_components_gallery.scss';
+@import 'scss/04_designsPortfolio/_03_portfolio_components_slider_bigImage.scss';
+
+@import 'scss/04_designsPortfolio/_04_portfolio_components_slider_bigImage_start_animation.scss';
+@import 'scss/04_designsPortfolio/_05_portfolio_components_slider_buttons.scss';
+@import 'scss/04_designsPortfolio/_06_portfolio__mediaQueries.scss';
+
+@import 'scss/05_classes_for_opacity/_00_styles_must_be_after_the_elements.scss';
+
+@import 'scss/06_scroll_button_right_side/_00_scroll_button_right_side.scss';
+
+@import 'scss/07_mediaqueries_991/_00_svg_text_content.scss';
+@import 'scss/07_mediaqueries_991/_01_mediaqueries__forAll.scss';
